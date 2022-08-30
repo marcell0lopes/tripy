@@ -13,6 +13,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100px;
 `;
 
 export const Logo = styled.img`
@@ -37,6 +38,7 @@ export const NavLink = styled.li<NavLinkProps>`
   font-size: 20px;
   margin-right: 2rem;
   font-weight: ${({ active }) => (active ? "500" : "300")};
+  margin-bottom: -2px;
   border-bottom: 2px solid;
   border-color: ${({ active, theme }) =>
     active ? theme.colors.primary : theme.colors.white};
