@@ -29,6 +29,7 @@ export const Button = styled.a`
   height: 60px;
   border-radius: 60px;
   padding: 18px 24px;
+  cursor: pointer;
 `;
 
 export const FloatingGallery = styled.div`
